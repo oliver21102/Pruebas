@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 25-10-2015 09:16:16 AM by Hibernate Tools 3.2.1.GA -->
+<hibernate-mapping>
+    <class name="Datos.Persona" table="Persona" schema="dbo" catalog="DBPRUEBA2">
+        <id name="ci" type="int">
+            <column name="ci" />
+            <generator class="assigned" />
+        </id>
+        <property name="nombre" type="string">
+            <column name="nombre" length="30" />
+        </property>
+    </class>
+</hibernate-mapping>
